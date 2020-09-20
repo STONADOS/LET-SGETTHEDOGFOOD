@@ -93,6 +93,8 @@ function draw() {
   if(foodstock == 0){
   text("BRuhhhh YoU CaNt Feed me Any MoRe", 130, 100);
   dooogie.addImage("dog1", dogcrying);
+  thumpsupleft.visible = false;
+  thumpsupright.visible = false;
   }
 
 }
